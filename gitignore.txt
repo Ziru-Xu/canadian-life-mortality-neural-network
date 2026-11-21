@@ -1,0 +1,4 @@
+# CIA data is not redistributed - download it from the CIA website
+data/
+.ipynb_checkpoints/
+__pycache__/

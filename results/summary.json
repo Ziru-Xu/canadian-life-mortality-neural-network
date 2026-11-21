@@ -1,0 +1,35 @@
+{
+  "final_cfg": {
+    "lr": 0.003,
+    "batch_size": 32768,
+    "emb_dim": 4,
+    "hidden": [
+      256,
+      128,
+      64
+    ],
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "num_cols": [
+      "AttdAge",
+      "IssueAge",
+      "PolYearC"
+    ],
+    "base": "CIA2014",
+    "train_years": null,
+    "max_epochs": 30,
+    "patience": 4,
+    "seed": 42,
+    "tag": ""
+  },
+  "best": {
+    "R1": "batch 32768, lr 3e-3",
+    "R2": "[256,128,64]",
+    "R3": "none (current)",
+    "R4": "current inputs",
+    "R5": "NN with CIA2014 offset"
+  },
+  "seed_sd": 161.97778727377937,
+  "balance_used": false,
+  "ae_train": 1.0067704715871726
+}
